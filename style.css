@@ -1,0 +1,420 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: rgb(195, 246, 255);
+}
+
+body {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 1.3rem;
+}
+
+/* index.html */
+
+.homeBar {
+    position: relative;
+    margin: 0 auto;
+    width: auto;
+    border: 3px rgb(128, 255, 128) solid;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: white;
+}
+
+.homeBar img {
+    padding: 0 0 0 10px;
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+    right: 160px;
+
+}
+
+nav li {
+    display: flex;
+    margin: 0 0 10px 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+}
+
+nav a:hover {
+    color: rgba(137, 43, 226, 0.425);
+    text-decoration: underline;
+}
+
+.prod {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: space-around;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.allsa {
+    justify-content: center;
+    display: flex;
+    margin:0 auto;
+}
+
+.prod_box {
+    padding: 2px;
+    margin: 3px;
+    border: 2px rgb(12, 3, 182) solid;
+    border-top: solid 5px rgb(43, 1, 105);
+    border-bottom: solid 5px rgb(43, 1, 105);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 25px;
+    box-shadow: 2px 2px 10px rgb(42, 39, 39);
+}
+
+.prod_box_title {
+    text-align: center;
+    font-style: italic;
+}
+
+.prod_box_price {
+    text-align: center;
+}
+
+.prod_box div:first-child {
+    font-weight: bold;
+}
+
+.prod_box div:last-child {
+    font-weight: bold;
+}
+
+.prod_box img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.prod_box_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.prod_box_list_item {
+    list-style: none;
+    align-items: center;
+}
+
+.prod_box:hover {
+    border-color: rgb(128, 255, 128);
+    font-size: 1.5rem;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.prod_box:active{
+    border-color: rgb(255, 128, 128);
+}
+
+.products li:hover h2,
+img,
+.desc_p,
+.desc {
+    font-size: 3.5rem;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.header_Title {
+    margin: 10px 0px;
+}
+
+.header_Introduction {
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.header_Introduction p {
+    padding: 5px;
+}
+
+.main_Title {
+    margin: 10px 0px;
+}
+
+.main_Introduction {
+    margin: 20px;
+    text-align: center;
+}
+
+.main_Introduction p {
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(164, 164, 239);
+    color: white;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+/*
+/* contact.html */
+
+.contact_all {
+    margin: 0 auto;
+    width: 940px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 2.0rem;
+    margin: 0 20px 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+.inputP {
+    display: block;
+    margin: 0 20px 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    resize: none;
+}
+
+.checkbox {
+    margin: 0 20px 20px;
+}
+
+select {
+    margin: 0 20px 20px;
+    border-radius: 10px;
+}
+
+.send {
+    width: 40%;
+    margin: 0 20px 20px;
+    padding: 15px 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(255, 149, 0);
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.send:hover {
+    background: rgb(128, 255, 128);
+    transform: scale(1.2);
+}
+
+table {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+thead {
+    background-color: rgba(137, 43, 226, 0.425);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+/* FAQ.html */
+
+.happyface {
+    width: 120px;
+    float: left;
+    margin: 0px 20px 10px;
+}
+
+.main_faq h2 {
+    text-align: center;
+    clear: left;
+}
+
+.main_faq {
+    padding: 3em;
+    margin: 0 auto;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: #8abeff;
+    background: transparent;
+    width: 940px;
+}
+
+.main_faq p {
+    padding: 5px;
+}
+
+.map {
+    padding: 3em;
+    background: linear-gradient(rgb(195, 246, 255), rgb(125, 235, 255));
+}
+
+.map p,
+h2 {
+    margin: 0 0 5px;
+    text-align: center;
+}
+
+.map_content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.choseus_content {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.choseus_main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.choseus {
+    background: linear-gradient(rgb(125, 235, 255), rgb(9, 105, 122));
+}
+
+.choseusimg {
+    box-shadow: -5px 5px 20px rgb(116, 255, 155), 5px -5px 20px rgb(241, 87, 231);
+}
+
+.choseus h3 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.choseus_content_list {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.choseusimg {
+    width: 60%;
+}
+
+.choseus_content_list_items {
+    line-height: 1.5;
+    font-style: oblique;
+}
+
+.choseus_content_list_items:nth-child(5) {
+    font-weight: 700;
+}
+
+.choseus_content_list_items:last-child {
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.video_box {
+    width: 940px;
+    margin: 0 auto;
+    background: linear-gradient(rgb(9, 105, 122), rgb(0, 217, 255));
+}
+
+.video {
+    width: 560px;
+    margin: 0 auto;
+}
+
+.choseus h2 {
+    text-align: center;
+    padding: 2em;
+}
+
+.choseus p {
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (max-width:480px) {
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    .homeBar,
+    .main_faq,
+    .map_content,
+    .choseus_main,
+    .video,
+    .choseus_content,
+    .contact_all, .allsa {
+        width: auto;
+    }
+
+    .choseus_content_list {
+        padding: 1em;
+        list-style: none;
+    }
+
+    .choseusimg,
+    .choseus_content_list {
+        width: 100%;
+        text-align: center;
+    }
+
+    .inputP,
+    .send {
+        width: 80%;
+    }
+
+    table {
+        width: 80%;
+        text-align: center;
+    }
+}

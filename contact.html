@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <title>Contact Beautiful Dummy Page</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <div class="homeBar">
+          <h1><img src="./assets/dummy_logo.jpg" alt="logo" /></h1>
+          <nav>
+            <div class="homeBar_Nav">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div class="contact_all">
+        <form action="">
+          <label for="falname">First and last name</label>
+          <input
+            type="text"
+            name=""
+            id="falname"
+            class="inputP"
+            placeholder="Example Name" />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            class="inputP"
+            required
+            placeholder="example@example.com" />
+
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" class="inputP" placeholder="123987456" />
+
+          <label for="message">Message</label>
+          <textarea
+            name=""
+            id="message"
+            cols="60"
+            rows="10"
+            class="inputP"
+            required
+            placeholder="Input your text here"></textarea>
+
+          <fieldset>
+            <legend>How would you like to be contacted?</legend>
+
+            <label for="radio-email"
+              ><input
+                type="radio"
+                name="contact"
+                value="email"
+                id="radio-email"
+                checked />Email</label
+            >
+
+            <label for="radio-phone"
+              ><input
+                type="radio"
+                name="contact"
+                value="phone"
+                id="radio-phone" />Phone</label
+            >
+
+            <label for="radio-whats">
+              <input
+                type="radio"
+                name="contact"
+                value="Whatsapp"
+                id="radio-whats" />Whatsapp</label
+            >
+          </fieldset>
+
+          <fieldset>
+            <legend>Which hour do you wish to be contacted?</legend>
+            <select name="" id="">
+              <option value="">8 AM - 11 AM</option>
+              <option value="">1 PM - 4 PM</option>
+              <option value="">5 PM - 8 PM</option>
+            </select>
+          </fieldset>
+
+          <label for="" class="checkbox"
+            >Would you like to subscribe to our newsletter?<input
+              type="checkbox"
+          /></label>
+
+          <input type="submit" value="Send" class="send" id="send-button" />
+        </form>
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Normal</td>
+              <td>8AM - 5PM</td>
+            </tr>
+            <tr>
+              <td>Weekends</td>
+              <td>10AM - 2PM</td>
+            </tr>
+            <tr>
+              <td>Holidays</td>
+              <td>10AM - 2PM</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <footer>
+      <p>© 2023 Beautiful Dummy Page by Camilo Diaz</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
